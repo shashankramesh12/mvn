@@ -12,7 +12,9 @@
     <description>
         RION Ops for Java is an open source toolkit for reading and writing the compact, fast, binary data format RION.
     </description>
-  <url>https://github.com/shashankramesh01/mvnorg</url>
+  <url>https://github.com/shashankramesh12/mvn</url>
+  
+  
   
       <licenses>
         <license>
@@ -30,10 +32,11 @@
         </developer>
     </developers>
   
+  
       <scm>
-        <connection>scm:git:git://github.com/shashankramesh01/mvn.git</connection>
-        <developerConnection>scm:git:ssh://github.com/shashankramesh01/mvn.git</developerConnection>
-        <url>http://github.com/shashankramesh01/mvn/tree/main</url>
+        <connection>scm:git:git://github.com/shashankramesh12/mvn.git</connection>
+        <developerConnection>scm:git:ssh://github.com/shashankramesh12/mvn.git</developerConnection>
+        <url>http://github.com/shashankramesh12/mvn/tree/main</url>
     </scm>
   
 
