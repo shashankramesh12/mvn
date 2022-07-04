@@ -16,8 +16,8 @@ jobs:
           server-id: ossrh
           server-username: shashankramesh1992
           server-password: 9845582278@mM
-          gpg-private-key: ${{ secrets.OSSRH_E732559D8E64C9630ADD40CC7B679CB31D7CE2F5 }}
-          gpg-passphrase: MAVEN_GPG_admin
+          gpg-private-key: E732559D8E64C9630ADD40CC7B679CB31D7CE2F5
+          gpg-passphrase: admin
       - name: build artifact
         run: mvn clean package
       - name: Create release
@@ -32,7 +32,8 @@ jobs:
             --no-transfer-progress \
             --batch-mode \
             deploy
-        env:
-          MAVEN_USERNAME: shashankramesh1992
-          MAVEN_PASSWORD: 9845582278@mM
-          MAVEN_GPG_PASSPHRASE: admin
+ #       env:
+ #         MAVEN_USERNAME: shashankramesh1992
+ #         MAVEN_PASSWORD: 9845582278@mM
+ #         MAVEN_GPG_PASSPHRASE: admin
+#
