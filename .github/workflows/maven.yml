@@ -28,10 +28,7 @@ jobs:
           token: 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
       - name: Publish to the Maven Central Repository
         run: |
-          mvn \
-            --no-transfer-progress \
-            --batch-mode \
-            deploy
+          mvn verify gpg:sign install:install deploy:deploy
  #       env:
  #         MAVEN_USERNAME: shashankramesh1992
  #         MAVEN_PASSWORD: 9845582278@mM
