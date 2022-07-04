@@ -18,6 +18,7 @@ jobs:
           server-password: 9845582278@mM
           gpg-private-key: E732559D8E64C9630ADD40CC7B679CB31D7CE2F5
           gpg-passphrase: admin
+          token: zWjT6xL7bHIOaPtcUS9drL8KVIodUu0CSJHS
       - name: build artifact
         run: mvn clean package
       - name: Create release
