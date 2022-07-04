@@ -20,5 +20,5 @@ jobs:
       - name: Publish package
         run: mvn --batch-mode deploy
         env:
-          MAVEN_USERNAME: ${shashankramesh1992 }}
-          MAVEN_PASSWORD: ${{ 9845582278@mM }}
+          MAVEN_USERNAME: shashankramesh1992
+          MAVEN_PASSWORD: 9845582278@mM
