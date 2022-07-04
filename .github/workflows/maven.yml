@@ -25,7 +25,7 @@ jobs:
         with:
           allowUpdates: true
           artifacts: "${{ github.workspace }}/target/*.jar"
-          token: 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
+          token: zWjT6xL7bHIOaPtcUS9drL8KVIodUu0CSJHS
       - name: Publish to the Maven Central Repository
         run: |
           mvn verify gpg:sign install:install deploy:deploy
